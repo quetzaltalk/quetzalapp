@@ -157,4 +157,7 @@
       <Name>Quetzal</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\quetzallogologin.jpg" />
+  </ItemGroup>
 </Project>

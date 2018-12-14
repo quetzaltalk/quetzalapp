@@ -1,8 +1,22 @@
 ﻿^ContentPage {
-    background-color: lightgrey;
+    background-color: #0faf68;
+}
+
+#LoginLogo {
+    margin-top: 100;
 }
 
 #LoginBrand {
-    font-weight: bold;
-    color: black;
+    margin-bottom: 50;
+}
+
+#LoginMail,
+#LoginPassword {
+    margin-left: 50;
+    margin-right: 50;
+}
+
+#LoginButton {
+    margin-left: 50;
+    margin-right: 50;
 }

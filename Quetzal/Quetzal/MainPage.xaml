@@ -8,10 +8,14 @@
         <StyleSheet Source="Content/Layout.css" />
     </ContentPage.Resources>
 
-    <StackLayout>
-        <Label x:Name="LoginBrand" Text="Quetzal" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout Orientation="Vertical">
+        <Image x:Name="LoginLogo" Source="quetzallogologin.jpg" HorizontalOptions="Center" WidthRequest="100" />
+        <Image x:Name="LoginBrand" Source="quetzalbrandlogin.jpg" HorizontalOptions="Center" WidthRequest="200" />
+
+        <Entry x:Name="LoginMail" Placeholder="Email" PlaceholderColor="#bce7d4" />
+        <Entry x:Name="LoginPassword" Placeholder="Password" IsPassword="True" PlaceholderColor="#bce7d4" />
+
+        <Button x:Name="LoginButton" Text="Connexion" BorderRadius="5" TextColor="#bce7d4" BackgroundColor="#51b98b" />
     </StackLayout>
 
 </ContentPage>
